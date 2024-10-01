@@ -4,11 +4,49 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4b400;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		 <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Alice Johnson</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bob Smith</td>
+            </tr>
+        </tbody>
+    </table>
 </script>
 
 </body>
